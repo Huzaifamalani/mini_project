@@ -5,7 +5,7 @@ import 'package:flutter/material.dart';
 import 'package:project/categories.dart';
 import 'package:project/constants/constant.dart';
 import 'package:project/favourite.dart';
-import 'package:project/home.dart';
+import 'package:project/homeview.dart';
 
 
 class BottonNavigate extends StatefulWidget {
@@ -59,7 +59,7 @@ class _BottonNavigateState extends State<BottonNavigate> {
     Widget widget;
     switch(index){
       case 0:
-        widget =  HomeScreen();
+        widget =  Homeview();
         break;
       case 1:
         widget =  Categories();

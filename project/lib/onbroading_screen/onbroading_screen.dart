@@ -2,20 +2,18 @@ import 'package:flutter/material.dart';
 import 'package:project/constants/constant.dart';
 import 'package:project/onbroading_screen/widget/button.dart';
 
-class GetStartedView extends StatefulWidget {
-  const GetStartedView({super.key});
+class OnbroadingScreen extends StatefulWidget {
+  const OnbroadingScreen({super.key});
 
   @override
-  State<GetStartedView> createState() => _GetStartedViewState();
+  State<OnbroadingScreen> createState() => _OnbroadingScreenState();
 }
 
-class _GetStartedViewState extends State<GetStartedView> {
+class _OnbroadingScreenState extends State<OnbroadingScreen> {
   int activePage = 0;
-
   final PageController pageController = PageController(
     initialPage: 0,
   );
-
   @override
   Widget build(BuildContext context) {
     final double height = MediaQuery.of(context).size.height;
